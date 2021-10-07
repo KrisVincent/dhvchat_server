@@ -7,6 +7,7 @@ api = Api(app)
 class Login(Resource):
     def post(self):
         print("User added")
+        print("bago")
         return {'msg': 'User added successfully'}
 
 api.add_resource(Login, '/login')
