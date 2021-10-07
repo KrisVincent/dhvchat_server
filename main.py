@@ -9,7 +9,6 @@ class Login(Resource):
         print("User added")
         return {'msg': 'User added successfully'}
 
-
 api.add_resource(Login, '/login')
 
 if __name__ == '__main__':
